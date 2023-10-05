@@ -24,6 +24,8 @@ import { Proyect010Component } from './proyect010/proyect010.component';
 import { Proyect012Component } from './proyect012/proyect012.component';
 import { Proyect013Component } from './proyect013/proyect013.component';
 import { Proyect014Component } from './proyect014/proyect014.component';
+import { Proyect015Component } from './proyect015/proyect015.component';
+import { LetrasPipe } from './proyect015/letras.pipe';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { Proyect014Component } from './proyect014/proyect014.component';
     Proyect012Component,
     Proyect013Component,
     Proyect014Component,
+    Proyect015Component,
+    LetrasPipe,
   ],
   imports: [
     BrowserModule,
