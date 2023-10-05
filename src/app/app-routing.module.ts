@@ -7,6 +7,7 @@ import { Proyect005Component } from './proyect005/proyect005.component';
 import { Proyect006Component } from './proyect006/proyect006.component';
 import { Proyect007Component } from './proyect007/proyect007.component';
 import { Proyect008Component } from './proyect008/proyect008.component';
+import { Proyect009Component } from './proyect009/proyect009.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'Proyect008',
     component: Proyect008Component
+  },
+  {
+    path: 'Proyect009',
+    component: Proyect009Component
   },
 ];
 

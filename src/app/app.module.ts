@@ -17,6 +17,9 @@ import { Proyect007Component } from './proyect007/proyect007.component';
 import { Selectornumerico2Component } from './proyect007/selectornumerico2/selectornumerico2.component';
 import { Proyect008Component } from './proyect008/proyect008.component';
 import { ListadoarticulosComponent } from './proyect008/listadoarticulos/listadoarticulos.component';
+import { ElementosModule } from './proyect009/elementos/elementos.module';
+import { Proyect009Component } from './proyect009/proyect009.component';
+import { Proyect010Component } from './proyect010/proyect010.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +36,15 @@ import { ListadoarticulosComponent } from './proyect008/listadoarticulos/listado
     Proyect007Component,
     Selectornumerico2Component,
     Proyect008Component,
-    ListadoarticulosComponent
+    ListadoarticulosComponent,
+    Proyect009Component,
+    Proyect010Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ElementosModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
