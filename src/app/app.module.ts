@@ -21,6 +21,7 @@ import { ListadoarticulosComponent } from './proyect008/listadoarticulos/listado
 import { ElementosModule } from './proyect009/elementos/elementos.module';
 import { Proyect009Component } from './proyect009/proyect009.component';
 import { Proyect010Component } from './proyect010/proyect010.component';
+import { Proyect012Component } from './proyect012/proyect012.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { Proyect010Component } from './proyect010/proyect010.component';
     ListadoarticulosComponent,
     Proyect009Component,
     Proyect010Component,
+    Proyect012Component,
   ],
   imports: [
     BrowserModule,
