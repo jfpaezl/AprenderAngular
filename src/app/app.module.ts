@@ -11,6 +11,10 @@ import { Proyect004Component } from './proyect004/proyect004.component';
 import { Dado2Component } from './proyect004/dado2/dado2.component';
 import { Proyect005Component } from './proyect005/proyect005.component';
 import { CronometroComponent } from './proyect005/cronometro/cronometro.component';
+import { Proyect006Component } from './proyect006/proyect006.component';
+import { SelectornumericoComponent } from './proyect006/selectornumerico/selectornumerico.component';
+import { Proyect007Component } from './proyect007/proyect007.component';
+import { Selectornumerico2Component } from './proyect007/selectornumerico2/selectornumerico2.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { CronometroComponent } from './proyect005/cronometro/cronometro.componen
     Proyect004Component,
     Dado2Component,
     Proyect005Component,
-    CronometroComponent
+    CronometroComponent,
+    Proyect006Component,
+    SelectornumericoComponent,
+    Proyect007Component,
+    Selectornumerico2Component
   ],
   imports: [
     BrowserModule,
