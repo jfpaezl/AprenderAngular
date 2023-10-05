@@ -15,6 +15,8 @@ import { Proyect006Component } from './proyect006/proyect006.component';
 import { SelectornumericoComponent } from './proyect006/selectornumerico/selectornumerico.component';
 import { Proyect007Component } from './proyect007/proyect007.component';
 import { Selectornumerico2Component } from './proyect007/selectornumerico2/selectornumerico2.component';
+import { Proyect008Component } from './proyect008/proyect008.component';
+import { ListadoarticulosComponent } from './proyect008/listadoarticulos/listadoarticulos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { Selectornumerico2Component } from './proyect007/selectornumerico2/selec
     Proyect006Component,
     SelectornumericoComponent,
     Proyect007Component,
-    Selectornumerico2Component
+    Selectornumerico2Component,
+    Proyect008Component,
+    ListadoarticulosComponent
   ],
   imports: [
     BrowserModule,
