@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +22,7 @@ import { ElementosModule } from './proyect009/elementos/elementos.module';
 import { Proyect009Component } from './proyect009/proyect009.component';
 import { Proyect010Component } from './proyect010/proyect010.component';
 import { Proyect012Component } from './proyect012/proyect012.component';
+import { Proyect013Component } from './proyect013/proyect013.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { Proyect012Component } from './proyect012/proyect012.component';
     Proyect009Component,
     Proyect010Component,
     Proyect012Component,
+    Proyect013Component,
   ],
   imports: [
     BrowserModule,
